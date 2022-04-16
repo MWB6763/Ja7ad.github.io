@@ -1,4 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+@font-face {
+    font-family: 'MonoLisa';
+    src: url('../fonts/MonoLisa-Regular.eot');
+    src: url('../fonts/MonoLisa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MonoLisa-Regular.woff2') format('woff2'),
+        url('../fonts/MonoLisa-Regular.woff') format('woff'),
+        url('../fonts/MonoLisa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
   position: relative;
   overflow-x: hidden !important;
@@ -9,7 +20,7 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "MonoLisa", sans-serif;
   color: #324e63;
 }
 
@@ -105,13 +116,13 @@ a, a:hover {
   font-weight: 700;
   font-size: 24px;
   color: #04275e;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .profile-card__txt {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
   color: #04275e;
-  margin-bottom: 15px;
+  margin-bottom: 6px;
 }
 .profile-card__txt strong {
   font-weight: 700;
@@ -133,7 +144,8 @@ a, a:hover {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-top: 35px;
+  margin-top: 15px;
+  margin-bottom: 6px;
 }
 .profile-card-inf__item {
   padding: 10px 35px;
@@ -218,7 +230,7 @@ a, a:hover {
 .profile-card__button {
   background: none;
   border: none;
-  font-family: "Quicksand", sans-serif;
+  font-family: "MonoLisa", sans-serif;
   font-weight: 700;
   font-size: 19px;
   margin: 15px 35px;
@@ -338,7 +350,7 @@ a, a:hover {
   padding: 15px 20px;
   color: #324e63;
   font-weight: 500;
-  font-family: "Quicksand", sans-serif;
+  font-family: "MonoLisa", sans-serif;
   outline: none;
   transition: all 0.3s;
 }
